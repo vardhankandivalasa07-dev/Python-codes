@@ -61,7 +61,6 @@ class College:
             s.display_student()
 
 
-# main program
 college = College("ANITS", "ANITS College", "Visakhapatnam")
 
 s1 = Student(1, "Harsha", 85, 90, 79, 2004, 50000)
@@ -73,3 +72,38 @@ college.register_student(s2)
 college.register_student(s3)
 
 college.display_details()
+
+'''
+College Code: ANITS
+College Name: ANITS College
+Location: Visakhapatnam
+
+Student Academic Report
+
+Student ID: 1
+Student Name: Harsha
+Marks: 85 90 79
+Fee Paid: 50000
+Average Marks: 84.67
+CGPA: 8.46
+Age: 22
+Fee Balance: 40000
+
+Student ID: 2
+Student Name: Jaya
+Marks: 95 78 90
+Fee Paid: 40000
+Average Marks: 87.67
+CGPA: 8.76
+Age: 23
+Fee Balance: 50000
+
+Student ID: 3
+Student Name: Hima
+Marks: 77 86 70
+Fee Paid: 30000
+Average Marks: 77.67
+CGPA: 7.76
+Age: 22
+Fee Balance: 60000
+'''
